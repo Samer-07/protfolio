@@ -1,0 +1,110 @@
+.contact-section {
+    background: linear-gradient(45deg, #ff6f61, #f7a8b8, #7b2cbf, #ac4db6);
+    background-size: 400% 400%;
+    animation: gradientBG 5s ease infinite;
+    padding: 80px 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+  
+  @keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  /* تنسيق الحاوية */
+  .contact-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .contact-container h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  
+  /* تنسيق الفقرة */
+  .contact-container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #ddd;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .info-item {
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .info-item:hover {
+    transform: scale(1.1);
+  }
+  
+  .icon {
+    font-size: 40px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .icon:hover {
+    color: #ffd700;
+  }
+  
+  .info-details {
+    display: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: -70px;
+    width: 220px;
+    text-align: center;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .info-item .info-details {
+    display: block;
+    opacity: 0;
+  }
+  
+  .info-item:hover .info-details {
+    display: block;
+    opacity: 1;
+  }
+  
+  /* تنسيق الرابط داخل التفاصيل */
+  .info-details a {
+    font-size: 16px;
+    color: #e78325;
+    text-decoration: none;
+  }
+  
+  .info-details a:hover {
+    color: #ff6f61;
+  }
+  

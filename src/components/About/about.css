@@ -1,0 +1,99 @@
+/* تنسيق الحاوية الرئيسية */
+.about-container {
+    background-color: #f7f7f7;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* تنسيق العنوان */
+  .about-container h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* تنسيق الفقرة */
+  .about-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* تنسيق قسم المهارات */
+  .skills {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skills h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    font-size: 16px;
+    color: #777;
+    margin: 10px 0;
+    text-align: center;
+    transition: color 0.3s ease;
+  }
+  
+  .skills li:hover {
+    color: #ff6f61;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 20px;
+    }
+  
+    .about-container h2 {
+      font-size: 28px;
+    }
+  
+    .skills h3 {
+      font-size: 24px;
+    }
+  
+    .skills li {
+      font-size: 14px;
+    }
+  }
+  .cv-section {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #51caac;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cv-section a:hover {
+    color: #89078d;
+  }
+  a{
+    text-decoration: none;
+    color: #f3f3f3;
+  }
+  
