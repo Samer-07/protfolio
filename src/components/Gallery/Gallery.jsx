@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./gallery.css";  // تأكد من أنك قمت بإضافة الأنماط الخاصة بك
+import "./gallery.css"; 
 
 const Gallery = () => {
   const [popupImage, setPopupImage] = useState(null);

@@ -9,14 +9,13 @@ const Contact = () => {
   const [emailVisible, setEmailVisible] = useState(false);
   const [phoneVisible, setPhoneVisible] = useState(false);
   const [instagramVisible, setInstagramVisible] = useState(false);
-  const [githubVisible, setGithubVisible] = useState(false);  // حالة لـ GitHub
+  const [githubVisible, setGithubVisible] = useState(false);  
 
 
-  // دوال لتبديل الحالة (إظهار / إخفاء)
   const toggleEmail = () => setEmailVisible(!emailVisible);
   const togglePhone = () => setPhoneVisible(!phoneVisible);
   const toggleInstagram = () => setInstagramVisible(!instagramVisible);
-  const toggleGithub = () => setGithubVisible(!githubVisible); // دالة لتبديل حالة GitHub
+  const toggleGithub = () => setGithubVisible(!githubVisible); 
 
 
   return (
@@ -25,28 +24,26 @@ const Contact = () => {
         <h2>Kontakta mig</h2>
         <p>Jag skulle gärna höra från dig! </p>
         <div className="contact-info">
-          {/* أيقونة البريد الإلكتروني */}
           <div className="info-item">
             <FontAwesomeIcon
               icon={faEnvelope}
-              onClick={toggleEmail}  // عند النقر على الأيقونة
+              onClick={toggleEmail} 
               className="icon"
             />
-            {emailVisible && (  // إظهار البريد الإلكتروني إذا كانت الحالة true
+            {emailVisible && (  
               <div className="info-details email">
                 <a href="mailto:elhadeysamer@gmail.com">elhadeysamer@gmail.com</a>
               </div>
             )}
           </div>
 
-          {/* أيقونة الهاتف */}
           <div className="info-item">
             <FontAwesomeIcon
               icon={faPhoneAlt}
-              onClick={togglePhone}  // عند النقر على الأيقونة
+              onClick={togglePhone}  
               className="icon"
             />
-            {phoneVisible && (  // إظهار رقم الهاتف إذا كانت الحالة true
+            {phoneVisible && (  
               <div className="info-details phone">
                 <a href="tel:+46762674309">076-267 43 09</a>
               </div>
