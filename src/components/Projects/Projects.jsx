@@ -5,7 +5,7 @@ const projects = [
   
   {
     title: "VardagStil-project",
-    description: "React skol projekt",
+    description: " skol projekt",
     image: "./images/logo.png",
     link: "https://github.com/Samer-07/VardagStil-project"
   },
