@@ -6,6 +6,6 @@ import react from '@vitejs/plugin-react-swc';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 5555 // تأكد من أن المنفذ 3000 غير محجوز بواسطة تطبيق آخر
+    port: 5555 
   }
 });
