@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
    
       <NavBar />
       <Routes>
+      <Route path="/" element={<Home />} />
+
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
@@ -28,3 +31,4 @@ function App() {
 }
 
 export default App;
+
