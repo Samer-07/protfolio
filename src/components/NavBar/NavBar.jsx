@@ -10,13 +10,13 @@ const NavBar = () => {
 
     <nav>
       <ul>
-        <li><Link to="/home">Hem</Link></li>
         <li><Link to="/about">Om mig</Link></li>
         <li><Link to="/projects">Projekter</Link></li>
         <li><Link to="/gallery">Gallery</Link></li>
         <li><Link to="/contact">Kontakta mig</Link></li>
       </ul>
     </nav>
+   
     </>
   );
 };
