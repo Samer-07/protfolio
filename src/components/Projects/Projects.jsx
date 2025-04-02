@@ -9,6 +9,12 @@ const projects = [
     image: "./images/logo.png",
     link: "https://github.com/Samer-07/VardagStil-project"
   },
+  {
+    title: "movie-list-app",
+    description: "Detta är en React-applikation som visar några av de färdigheter jag har lärt mig under min utbildning. Genom denna webbplats har jag utvecklat en djupare förståelse för att bygga användargränssnitt och hantera API-förfrågningar, samt implementera funktioner som genre-filter och visning av filmer baserat på användarval. Jag har också implementerat möjligheten att spara favoritfilmer för användare.",
+    image: "./images/OIP.jpeg",
+    link: "https://github.com/Samer-07/movie-list-app.git"
+  },
 
 ];
 
